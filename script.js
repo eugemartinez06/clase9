@@ -1,4 +1,4 @@
-let name = "Emilia";
+/*let name = "Emilia";
 let surname = "Roca";
 console.log(surname + " " + name);
 
@@ -78,10 +78,32 @@ Banda.push("Arctic Monkeys");
         number++;}
         console.log("La suma de los números del 1 al 10 es: " + suma);
 
-var resultado;
-var numero1 = 3;
-var numero2 = 5;
+let resultado;
+let numero1 = 3;
+let numero2 = 5;
 function suma_y_muestra() {
     resultado = numero1 + numero2;
     alert("El resultado es: " + resultado)}
     suma_y_muestra(); 
+
+let numero = prompt("Introduce un número entero");
+let resultado1 = parImpar(numero);
+alert("El número " + numero + " es " + resultado1);
+function parImpar(numero) {
+  if (numero % 2 == 0) {
+    return "par";
+  } else {
+    return "impar";
+  }
+  }*/
+
+let nombre = prompt("Ingrese su nombre");
+function saludo (){
+    if (nombre){
+        alert("Bienvenido " + nombre);
+         }
+         else {
+            alert("Debe ingresar un nombre");
+            }
+        }
+            saludo();
